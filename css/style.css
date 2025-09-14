@@ -41,6 +41,11 @@
   max-width: 30rem;
 }
 
+.backgraund-main {
+  background: #00D4FF;
+  background: linear-gradient(0deg, rgb(0, 212, 255) 0%, rgb(2, 0, 36) 100%);
+}
+
 * {
   font-family: "Delius", cursive !important;
 }
