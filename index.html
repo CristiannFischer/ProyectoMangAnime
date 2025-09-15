@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Nakama Store</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,7 +20,7 @@
   </head>
   <body class="background-body">
 
-    <header class="headerindex">
+    <header class="header">
       <nav class="navbar navbar-expand-lg p-3 z-index: 2; width: 100% ;">
         <div class="container-fluid">
           <img class="logotipoh img-fluid rounded" src="./img/logo4.png" alt="logonakama" />
@@ -41,18 +41,18 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="#"
+                  href="./pages/mangas.html"
                   >Mangas</a
                 >
               </li>
               <li class="nav-item mx-5">
-                <a class="nav-link " href="#">Anime</a>
+                <a class="nav-link " href="./pages/animes.html">Anime</a>
               </li>
               <li class="nav-item mx-5">
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="#"
+                  href="./pages/ubicacion.html"
                   >Ubicación</a
                 >
               </li>
@@ -60,7 +60,7 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="#"
+                  href="./pages/contacto.html"
                   >Contacto</a
                 >
               </li>
@@ -80,21 +80,21 @@
           <img
             src="./img/onepiece1.jpg"
             class="d-block w-100  img-fluid carouselfoto"
-            alt="onepiece"
+            alt="imagenonepiece"
           />
         </div>
         <div class="carousel-item " >
           <img
             src="./img/my-hero-academia-ipad-gnirzeeafueve157.jpg"
             class="d-block w-100  img-fluid carouselfoto"
-            alt="onepiece"
+            alt="imagenmyhero"
           />
         </div>
         <div class="carousel-item">
           <img
             src="./img/windbreaker.jpg"
             class="d-block w-100  img-fluid carouselfoto"
-            alt="onepiece"
+            alt="imagenwindbreaker"
           />
          
         </div>
@@ -188,7 +188,7 @@ El equipo de Nakama Store  </p>
           <img class="w-100 img-fluid " src="./img/kaiju08.jpg" alt="KaijuNo8" />
           <p class="text-white text-center">
             Japón sufre de manera constante el ataque de monstruos de diversas formas y tamaños llamados KAIJU
-            Kafka Hibino es un hombre de 32 años que desde niño soñaba, junto con su amiga de la infancia, con formar parte del Cuerpo de Defensa, pero viendo que esta posibilida es algo imposible para él, se unió a los Monster Sweepers y trabaja como limpiador. Su vida dará un vuelco cuando conozca a Reno Ichikawa, un nuevo compañero de trabajo que ingresa a los Sweepers para ganar experiencia con los Kaiju y luego poder ingresar al Cuerpo de Defensa
+            Kafka Hibino es un hombre de 32 años que desde niño soñaba, junto con su amiga de la infancia, con formar parte del Cuerpo de Defensa, pero viendo que esta posibilidad es algo imposible para él, se unió a los Monster Sweepers y trabaja como limpiador. Su vida dará un vuelco cuando conozca a Reno Ichikawa, un nuevo compañero de trabajo que ingresa a los Sweepers para ganar experiencia con los Kaiju y luego poder ingresar al Cuerpo de Defensa
           </p>
           <button class="w-100 py-2 rounded bg-white fw-semibold">
             Comprar
@@ -206,7 +206,7 @@ El equipo de Nakama Store  </p>
         </section>
         <section class="bg-dark p-1 rounded card-main">
           <h3 class="text-white text-center text-uppercase">dan da dan</h3>
-          <img class="w-100 img-fluid" src="./img/dandadan.jpg" alt="dandadan" />
+          <img class="w-100 img-fluid" src="./img/dandadan1.jpg" alt="dandadan" />
           <p class="text-white text-center">
             DAN DA DAN es una popular serie de anime de acción sobrenatural basada en el manga de Yukinobu Tatsu, producida por Science SARU y estrenada en 2024. La historia sigue a Momo Ayase, que cree en fantasmas, y a Ken Takakura ("Okarun"), que cree en extraterrestres; cuando ambos se ven obligados a aceptar que ambos fenómenos son reales, se ven envueltos en una aventura que les da poderes y los enfrenta a amenazas paranormales.La serie mezcla terror, acción, comedia y romance con elementos de ciencia ficción.
           </p>
@@ -227,10 +227,36 @@ El equipo de Nakama Store  </p>
         </section>
       </div>
       </section>
-
-
+      <!-- Form Contacto-->
+<div class="container bg-dark mt-5  rounded text-center w-auto">
+    <h2 class="mb-3">Enviar Mensaje</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
     </main>
-    
+<!--Contacto y Ubiacion-->
+    <footer class="mt-5 bg-dark justify-content-center justify-content-end d-flex text-white">
+      <section >
+        <p class="text-center">Cristian Nicolas Fischer</p>
+  <a href="https://wa.me/+5492226444332" target="_blank"> <img src="../img/whatsapp.png" alt="Whatsapp" class="logowhatsapp"></a>
+<a href="https://www.instagram.com/ypf_elmolino/?hl=es-la" target="_blank"> <img src="../img/logoinsta.png" alt="logoinsta" class="logoinsta"></a>
+<a href="mailto:cristiannfischer@gmail.com" target="_blank"> <img src="../img/email.png" alt="email" class="logoemail"></a>
+<a href="https://www.google.com/maps/place/YPF+El+Molino/@-35.0310239,-58.7247648,17z/data=!3m1!4b1!4m6!3m5!1s0x95bd21f9243f8e73:0xb2d75938fdd0741e!8m2!3d-35.0310239!4d-58.7247648!16s%2Fg%2F11h585lkqs?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"> <img src="../img/mapa.png" alt="ubiacion" class="mapa"></a>
+      </section>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
