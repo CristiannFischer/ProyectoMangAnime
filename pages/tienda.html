@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Nakama Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body class="background-body">
+
+    <header class="header">
+      <nav class="navbar navbar-expand-lg p-3 z-index: 2; width: 100% ;">
+        <div class="container-fluid">
+          <img class="logotipoh img-fluid rounded" src="../img/logo4.png" alt="logonakama" >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  fs-2 me-auto mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/mangas.html"
+                  >Mangas</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link " href="../pages/animes.html">Anime</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/tienda.html"
+                  >Merchandising</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/ubicacion.html"
+                  >Ubicación</a
+                >
+              </li>
+          
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+    <!-- Carousel-->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel" >
+      <div class="carousel-inner w-auto">
+        <div class="carousel-item active">
+          <img
+            src="../img/Merchandising1.jpg"
+            class="d-block w-100  img-fluid carouselfoto"
+            alt="FigurasDeAnime"
+          >
+        </div>
+        <div class="carousel-item " >
+          <img
+            src="../img/Merchandising2.jpg"
+            class="d-block w-100  img-fluid carouselfoto"
+            alt="FunkoPopAnime"
+          >
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../img/Merchandising3.jpg"
+            class="d-block w-100  img-fluid carouselfoto"
+            alt="CosplayAnime"
+          >
+         
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <div class="contenedor-oferta ">
+       <h1 class=" text-center  parrafo-bienvenida">  
+ ¿Figuras de colección, merchandising o artículos únicos? ¡Lo tenemos!
+       </h1>
+      </div>
+    </header>
+
+    <!--Figuras Collecionables-->
+    <main>
+    <section class="backgraund-main">
+    
+      <h2 class="text-center  text-white">Figuras Coleccionables</h2>
+      <div class="flexbox-contenedor">
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">OnePiece</h3>
+          <img class="w-100 img-fluid " src="../img/OnePieceTienda.jpg" alt="FiguraOnePiece" >
+          <p class="text-white text-center mx-5">
+     Figuras de collecion One Piece de Banpresto, hermosos detalles y un pintado de primera calidad.Estas figuras manejan unas dimensiones de 19cmx 8 de diametro.
+     Vienen una presentación de bolsa ziplop por lo cual no traen una caja tradicional, que mayormente son innecesarias.
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase"> JujutsuKaisen</h3>
+          <img class="w-100 img-fluid" src="../img/JujutsuKaisenTienda.jpg" alt="JujutsuKaisenFiguras" >
+          <p class="text-white text-center mx-5">
+           Sumergite en el universo de Jujutsu Kaisen con estos exclusivos Gashapones de 10 cm que presentan a los personajes más emblemáticos: Toji, Gojo, Choso y Geto. Cada figura está diseñada con gran detalle para capturar la esencia y personalidad que han hecho de este anime un fenómeno mundial.
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">DragonBall</h3>
+          <img class="w-100 img-fluid " src="../img/DragonBallTienda.jpg" alt="FiguraDragonBall" >
+          <p class="text-white text-center mx-5">
+     Desata la emoción de las épicas batallas de "Dragon Ball Z" con el exclusivo set de gashapones mixtos, diseñado para los verdaderos guerreros del fandom. Este conjunto coleccionable es un homenaje a la legendaria serie que ha capturado la imaginación de fans alrededor del mundo.
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">PokemonFigura</h3>
+          <img class="w-100 img-fluid " src="../img/PokemonTienda.jpg" alt="junketbank" >
+          <p class="text-white text-center mx-5">
+           Tremendo set de figuras coleccionables de pokemon, cuentan con unas dimensiones de 8x7 cm de diametro.
+           El set cuenta con 3 duos de pokemon: Squirtle+ bulbasaur- Pikachu+ Togepi- bulbasaur+Heracross.
+           Todos los pares tienen una variedad de detalles y un nivel de pintado de otra categoría
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+      </div>
+      <!--Funko Pop-->
+      <section>
+      <h2 class="text-center my-3 text-white">Funko Pop</h2>
+      <div class="flexbox-contenedor">
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">Tanjiro Kamado</h3>
+          <img class="w-100 img-fluid " src="../img/FunkoPopDemonSlayer.jpg" alt="FunkoPopDemonSlayer" >
+          <p class="text-white text-center mx-5">
+            Sumergite en el universo de Demon Slayer con el exclusivo Funko Pop! Demon Slayer Tanjiro Respiración Solar 1748. 
+            Esta figura coleccionable captura a la perfección al valiente Tanjiro Kamado en una de sus técnicas más poderosas y emblemáticas: la Respiración Solar.
+            Este Funko Pop es el complemento ideal para cualquier fanático del anime
+            Su tamaño compacto y acabado de alta calidad lo hacen perfecto
+    
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">Majin Vegeta</h3>
+          <img class="w-100 img-fluid" src="../img/FunkoPopDragon.jpg" alt="FunkoPopDragon" >
+          <p class="text-white text-center mx-5">
+          Desata el poder oscuro de uno de los guerreros más formidables del universo con el Funko Pop! Animation #862 de Dragon Ball Z, que presenta a Majin Vegeta. Esta figura coleccionable captura al Príncipe de los Saiyans en uno de sus momentos más icónicos y dramáticos, cuando es poseído por el hechizo de Babidi y se convierte en Majin Vegeta, con el emblema "M" claramente marcado en su frente.
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">Charizard</h3>
+          <img class="w-100 img-fluid" src="../img/FunkoPopPokemon.jpg" alt="FunkoPopPokemon" >
+          <p class="text-white text-center mx-5">
+            ¡Añade el legendario Charizard a tu colección con el Funko Pop! Games #843! Este adorable y detallado Funko Pop! captura la esencia del icónico Pokémon en su clásica forma de vinilo, perfecto para fanáticos de todas las edades.
+            Fabricado con materiales de vinilo duraderos, este Funko Pop! asegura una larga vida en tu estantería de colección.Con su tamaño compacto, es ideal para exhibir en escritorios
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">Yuji Itadori</h3>
+          <img class="w-100 img-fluid" src="../img/JujutusFunkoPop.jpg" alt="JujutusFunkoPop">
+          <p class="text-white text-center mx-5">
+          ¡Lleva la energía de Jujutsu Kaisen a tu colección con el Funko Pop! Este divertido y detallado Funko representa a Yuji Itadori, el protagonista de la exitosa serie, en una pose dinámica que captura su espíritu valiente y decidido.Con un diseño cuidado y calidad superior, este Funko Pop! Plus es el regalo ideal para fanáticos del anime y coleccionistas. Su tamaño compact lo hace perfecto para exhibir en tu escritorio
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        </div>
+     <!--Cosplay-->
+      <section>
+      <h2 class="text-center my-3 text-white">Mejores Cosplay</h2>
+      <div class="flexbox-contenedor">
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase"> Cosplay Capa Akatsuki</h3>
+          <img class="w-100 img-fluid " src="../img/CapaAkatsukiCosplay.jpg" alt="CapaAkatsukiCosplay" >
+          <p class="text-white text-center mx-5">
+           Conectate con el legado de los renegados más poderosos del mundo shinobi.
+Esta capa Akatsuki está confeccionada en tropical mecánico, una tela liviana, resistente y de excelente caída, ideal para eventos, sesiones de fotos y combates épicos (imaginarios o no).
+Las icónicas nubes rojas están estampadas con vinilo termotransferible de alta calidad, garantizando colores vibrantes y gran durabilidad.
+    
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">Cosplay Satoru Gojo</h3>
+          <img class="w-100 img-fluid" src="../img/CosplaySatoru.jpg" alt="CosplaySatoru" >
+          <p class="text-white text-center mx-5">
+       El Mejor Cosplay Satoru Gojo Jujutsu Kaisen
+       Incluye:
+       Pantalon, Chaqueta y la Venda Negra.
+       Confecciónado en Tropical Mecanico, una tela intermedia que no pierde el color, no se desforma, no se arruga facilemnte.
+       Se confecciona a medida.
+       Para evitar disgustos o disconformidad, aclaramos: Hacemos cosplays accesibles, la calidad acompaña su precio
+       Esta publicación posee tiempo de disponibilidad de stock
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">Cosplay Monkey D Luffy</h3>
+          <img class="w-100 img-fluid" src="../img/CosplayMonkeyDLuffy.jpg" alt="CosplayMonkeyDLuffy" >
+          <p class="text-white text-center mx-5">
+           Cosplay Monkey D Luffy en Wano
+           El cosplay Incluye: Chaqueta Roja, Pantalon Corto Naranja con peluche, Faja Violeta y Saco Negro.
+           Confecciónado en Tropical Mecanico, una tela intermedia que no pierde el color, no se desforma, no se arruga facilemnte.
+           Se confecciona a medida.
+           Para evitar disgustos o disconformidad, aclaramos: la calidad acompaña su precio
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">Attack On Titan Para Gato</h3>
+          <img class="w-100 img-fluid" src="../img/CosplayAttackOnTitan.jpg" alt="CosplayAttackOnTitan">
+          <p class="text-white text-center mx-5">
+          Transforma a tu gato en un valiente guerrero con la Capa Shingeki No Kyojin Ataque A Los Titanes. Este disfraz está diseñado para los amantes del anime y los felinos, permitiendo que tu mascota se sumerja en el emocionante mundo de la lucha contra los titanes. Con un diseño que captura la esencia del personaje, tu gato se verá espectacular en cualquier ocasión.
+          La capa es perfecta para sesiones de fotos o fiestas temáticas 
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        </div>
+      <!-- Form Contacto-->
+<div class="container bg-dark mt-5  rounded text-center w-auto">
+    <h2 class="mb-3">Enviar Mensaje</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+    </main>
+<!--Contacto y Ubiacion-->
+    <footer class="mt-5 bg-dark justify-content-center justify-content-end d-flex text-white">
+      <section >
+        <p class="text-center">Cristian Nicolas Fischer</p>
+  <a href="https://wa.me/+5492226444332" target="_blank"> <img src="../img/whatsapp.png" alt="Whatsapp" class="logowhatsapp"></a>
+<a href="https://www.instagram.com/ypf_elmolino/?hl=es-la" target="_blank"> <img src="../img/logoinsta.png" alt="logoinsta" class="logoinsta"></a>
+<a href="mailto:cristiannfischer@gmail.com" target="_blank"> <img src="../img/email.png" alt="email" class="logoemail"></a>
+<a href="https://www.google.com/maps/@-34.6054332,-58.4290315,3a,75y,96.74h,90t/data=!3m7!1e1!3m5!1stekcES6qjASPsCtlsm0hxQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DtekcES6qjASPsCtlsm0hxQ%26yaw%3D96.74!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" target="_blank"> <img src="../img/mapa.png" alt="ubiacion" class="mapa"></a>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

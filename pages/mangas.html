@@ -1,33 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mangas</title>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Nakama Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body class="background-body">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg p-3 z-index: 2; width: 100% ;">
+        <div class="container-fluid">
+          <img class="logotipoh img-fluid rounded" src="../img/logo4.png" alt="logonakama" >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  fs-2 me-auto mx-auto mb-2 mb-lg-0">
+                   <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/mangas.html"
+                  >Mangas</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link " href="../pages/animes.html">Anime</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/tienda.html"
+                  >Merchandising</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/ubicacion.html"
+                  >Ubicación</a
+                >
+              </li>
+         
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <link rel="stylesheet" href="../css/style.css" />
-</head>
-<body>
-  <img class="imagenbody" src="../img/construccionmanga.jpg" alt="sitioenconsctrucion">
-  
+      
+    <!-- Carousel-->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel" >
+      <div class="carousel-inner w-auto">
+        <div class="carousel-item active">
+          <img
+            src="../img/DragonBallCarousel.jpg"
+            class="d-block w-100  img-fluid carouselfoto"
+            alt="DragonBall"
+          >
+        </div>
+        <div class="carousel-item " >
+          <img
+            src="../img/DetectiveConanCarousel.jpg"
+            class="d-block w-100  img-fluid carouselfoto"
+            alt="DetectiveConan"
+          >
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../img/BerserkCarousel.jpg"
+            class="d-block w-100  img-fluid carouselfoto"
+            alt="Berserk"
+          >
+         
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <div class="contenedor-oferta">
+       <h1 class=" parrafo-bienvenida text-center"> Mejores Manga De La Historia</h1>
+       
+      </div>
+    </header>
 
+    <!--Cards de venta Mangas-->
+    <main>
+    <section class="backgraund-main">
+    
+      
+      <div class="flexbox-contenedor">
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">gokurakugai</h3>
+          <img class="w-100 img-fluid " src="../img/gokurakugai01.jpg" alt="gokurakugai" >
+          <p class="text-white text-center">
+           Tao y Alma son dos jóvenes que manejan una particular agencia que se encarga de “solucionar problemas” en la ciudad de Gokurakugai. La pareja acepta trabajos de toda índole, desde la búsqueda de personas desaparecidas hasta ayudar a empresarios que son extorsionados a raíz de sus peculiares prácticas sexuales. Pero, en secreto, los chicos forman parte de una organización que se dedica a luchar contra los maga, monstruos nacidos de cuerpos sin vida de personas y animales
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">nue's exorcist</h3>
+          <img class="w-100 img-fluid" src="../img/nuesexorcist.jpg" alt="nuesexorcist" >
+          <p class="text-white text-center">
+           Nue's Exorcist es un manga de acción sobrenatural, comedia y ecchi escrito e ilustrado por Kōta Kawae, que comenzó su publicación en la Weekly Shōnen Jump en mayo de 2023. La historia sigue a Gakurô Yajima, un joven capaz de ver espíritus, que hace un contrato con Nue, un poderoso espíritu con forma de mujer que vive en su escuela. Gakurô debe colaborar con ella para derrotar a otros espíritus y a otros exorcistas, quienes desconfían de Nue. La serie fue seleccionada en el puesto 7 en los premios Manga
 
-
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">kindergartenwars</h3>
+          <img class="w-100 img-fluid " src="../img/kindergartenwars01.jpg" alt="kindergartenwars" >
+          <p class="text-white text-center">
+           El jardín de infantes Noir es conocido como “el más seguro del mundo”. Allí concurren los hijos de importantes políticos, celebridades, gente de negocios y otras personas importantes. La institución cuenta con un insólito sistema para evitar que sus alumnos puedan ser secuestrados o asesinados: contratar criminales condenados para que trabajen como maestros, ofreciéndoles una reducción de pena a cambio de sus servicios. En medio de este particular contexto nos presentan a Rita
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">junketbank</h3>
+          <img class="w-100 img-fluid " src="../img/junketbank.jpg" alt="junketbank" >
+          <p class="text-white text-center">
+            Junket Bank es un manga japonés de drama, comedia psicológica y thriller, escrito e ilustrado por Ikkō Tanaka.Publicado en la revista seinen Weekly Young Jump de Shueisha desde julio de 2020. Mitarai, un empleado bancario hastiado de su rutina diaria, es trasladado a una misteriosa "Unidad de Tasación". Allí, su nuevo jefe, Usami, lo guía a un pasadizo secreto dentro del banco, revelando un mundo clandestino de apuestas donde se desarrollan intensos juegos.
+            El manga está publicado en la revista Weekly Young.
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+         <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">DragonBall</h3>
+          <img class="w-100 img-fluid " src="../img/dragonball01.jpg" alt="mangadragonball" >
+          <p class="text-white text-center">
+          Dragon Ball es considerado por muchos uno de los mejores y más importantes mangas de la historia debido a su impacto global, popularización del género shonen y la influencia de sus conceptos narrativos, como las transformaciones y escalas de poder, en obras posteriores. Es una leyenda del manga que sentó las bases para muchas historias de acción y compañerismo Su legado es tan fuerte que aún hoy en día sigue influyendo en nuevas generaciones de artistas y fanáticos
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+         <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">OnePiece</h3>
+          <img class="w-100 img-fluid " src="../img/OnePieceManga.jpg" alt="OnePieceManga" >
+          <p class="text-white text-center">
+            One Piece  es consistentemente considerado uno de los mejores mangas de la historia por su narrativa, profundidad temática y éxito comercial, siendo el manga más vendido de la historia con más de 516 millones de copias. Su longevidad, la creación de un mundo inmersivo y la empatía generada con sus personajes también son factores clave de su aclamación.La obra de Eiichiro Oda aborda temas complejos como la justicia, la depresión y la desigualdad social, que resuenan con los lectores. 
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+         <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">DetectiveConan</h3>
+          <img class="w-100 img-fluid " src="../img/DetectiveConan.jpg" alt="DetectiveConan" >
+          <p class="text-white text-center">
+          Detective Conan es considerado uno de los grandes mangas de la historia, a menudo rankeado entre los mejores por su éxito comercial, premios y popularidad global. Su calidad como serie de misterio, su extensa longevidad (publicado desde 1994) y la profundidad de sus tramas lo consolidan como un clásico del género y un referente cultural en Japón y el mundo. Ganó el prestigioso Premio Shogakukan en la categoría shōnen en 2001, un reconocimiento importante a su calidad literaria. 
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+         <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">Berserk</h3>
+          <img class="w-100 img-fluid " src="../img/Berserk.jpg" alt="Berserk" >
+          <p class="text-white text-center">
+          Berserk es ampliamente considerado como uno de los mejores mangas de la historia debido a su arte detallado, su profunda y emotiva narrativa, y su impacto en la fantasía oscura. El manga es admirado por su estilo visual, su exploración de temas complejos y su habilidad para provocar una amplia gama de emociones en el lector. El arte de Kentaro Miura se destaca por su detalle, fluidez en las escenas de acción y el uso magistral del sombreado, lo que lo convierte en una obra de arte
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+      </div>
+      
+   
+      <!-- Form Contacto-->
+<div class="container bg-dark mt-5  rounded text-center w-auto">
+    <h2 class="mb-3">Enviar Mensaje</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+    </main>
+<!--Contacto y Ubiacion-->
     <footer class="mt-5 bg-dark justify-content-center justify-content-end d-flex text-white">
       <section >
         <p class="text-center">Cristian Nicolas Fischer</p>
   <a href="https://wa.me/+5492226444332" target="_blank"> <img src="../img/whatsapp.png" alt="Whatsapp" class="logowhatsapp"></a>
 <a href="https://www.instagram.com/ypf_elmolino/?hl=es-la" target="_blank"> <img src="../img/logoinsta.png" alt="logoinsta" class="logoinsta"></a>
 <a href="mailto:cristiannfischer@gmail.com" target="_blank"> <img src="../img/email.png" alt="email" class="logoemail"></a>
-<a href="https://www.google.com/maps/place/YPF+El+Molino/@-35.0310239,-58.7247648,17z/data=!3m1!4b1!4m6!3m5!1s0x95bd21f9243f8e73:0xb2d75938fdd0741e!8m2!3d-35.0310239!4d-58.7247648!16s%2Fg%2F11h585lkqs?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"> <img src="../img/mapa.png" alt="ubiacion" class="mapa"></a>
+<a href="https://www.google.com/maps/@-34.6054332,-58.4290315,3a,75y,96.74h,90t/data=!3m7!1e1!3m5!1stekcES6qjASPsCtlsm0hxQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DtekcES6qjASPsCtlsm0hxQ%26yaw%3D96.74!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" target="_blank"> <img src="../img/mapa.png" alt="ubiacion" class="mapa"></a>
       </section>
     </footer>
-      <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>

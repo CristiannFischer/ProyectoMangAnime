@@ -1,30 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animes</title>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Nakama Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body class="background-body">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css" />
-</head>
-<body>
-  <img class="imagenbody" src="../img/paginaenconstruccion.jpg" alt="paginaenconstruccion">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg p-3 z-index: 2; width: 100% ;">
+        <div class="container-fluid">
+          <img class="logotipoh img-fluid rounded" src="../img/logo4.png" alt="logonakama" >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  fs-2 me-auto mx-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/mangas.html"
+                  >Mangas</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link " href="../pages/animes.html">Anime</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/tienda.html"
+                  >Merchandising</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/ubicacion.html"
+                  >Ubicación</a
+                >
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-      <footer class="mt-5 bg-dark justify-content-center justify-content-end d-flex text-white">
+      
+    <!-- Carousel-->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel" >
+      <div class="carousel-inner w-auto">
+        <div class="carousel-item active">
+          <img
+            src="../img/DeathNoteCarousel.jpg"
+            class="d-block w-100  img-fluid carouselfoto"
+            alt="DeathNote"
+          >
+        </div>
+        <div class="carousel-item " >
+          <img
+            src="../img/KaijuNo8Carousel.jpg"
+            class="d-block w-100  img-fluid carouselfoto"
+            alt="Kaiju"
+          >
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../img/AttackOnTitansCarousel.jpg"
+            class="d-block w-100  img-fluid carouselfoto"
+            alt="AttackOnTitans"
+          >
+         
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <div class="contenedor-oferta">
+       <h1 class=" parrafo-bienvenida text-center"> Top Mejores Animes</h1>
+       
+      </div>
+    </header>
+
+
+    <main>
+   <!--Cards de venta Animes-->
+      <section>
+      <div class="flexbox-contenedor">
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">kaiju n° 8</h3>
+          <img class="w-100 img-fluid " src="../img/kaiju08.jpg" alt="KaijuNo8" >
+          <p class="text-white text-center">
+            Japón sufre de manera constante el ataque de monstruos de diversas formas y tamaños llamados KAIJU
+            Kafka Hibino es un hombre de 32 años que desde niño soñaba, junto con su amiga de la infancia, con formar parte del Cuerpo de Defensa, pero viendo que esta posibilidad es algo imposible para él, se unió a los Monster Sweepers y trabaja como limpiador. Su vida dará un vuelco cuando conozca a Reno Ichikawa, un nuevo compañero de trabajo que ingresa a los Sweepers para ganar experiencia con los Kaiju y luego poder ingresar al Cuerpo de Defensa
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">one piece</h3>
+          <img class="w-100 img-fluid" src="../img/Onepiececard.jpg" alt="onepiece" >
+          <p class="text-white text-center">
+           El anime One Piece es una popular serie de televisión de animación japonesa producida por Toei Animation y basada en el manga de Eiichiro Oda. Estrenada en octubre de 1999, narra la historia de Monkey D. Luffy y su tripulación, los Piratas del Sombrero de Paja, en su búsqueda del legendario tesoro One Piece para convertirse en el Rey de los Piratas. La serie cuenta con más de 1.100 episodios además de varias películas, especiales de TV y OVAs, y se ha exportado a numerosos países.La franquicia incluye 15 películas, siendo One Piece Film Red la más taquillera.  
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">dan da dan</h3>
+          <img class="w-100 img-fluid" src="../img/dandadan1.jpg" alt="dandadan" >
+          <p class="text-white text-center">
+            DAN DA DAN es una popular serie de anime de acción sobrenatural basada en el manga de Yukinobu Tatsu, producida por Science SARU y estrenada en 2024. La historia sigue a Momo Ayase, que cree en fantasmas, y a Ken Takakura ("Okarun"), que cree en extraterrestres; cuando ambos se ven obligados a aceptar que ambos fenómenos son reales, se ven envueltos en una aventura que les da poderes y los enfrenta a amenazas paranormales.La serie mezcla terror, acción, comedia y romance con elementos de ciencia ficción.
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">sakamoto days</h3>
+          <img class="w-100 img-fluid" src="../img/sakamotodos.jpg" alt="sakamotodays">
+          <p class="text-white text-center">
+           Tarō Sakamoto era un legendario sicario, temido por todos, llegando a ganarse el estatus de leyenda en el bajo mundo. Sin embargo, un día encontró al amor de su vida, abandonó el mundo de la criminalidad, se casó, tuvo una hija y subió mucho de peso. Ahora, Sakamoto trabaja en una tienda de conveniencia llevada por su familia, viviendo una vida feliz. No obstante, el mundo de la criminalidad todavía lo persigue. Sakamoto, junto con Shin, su antiguo joven aprendiz el cual cuenta con telepatía y trabaja en la tienda.
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+         <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">DemonSlayer</h3>
+          <img class="w-100 img-fluid" src="../img/DemonSlayerAnime.jpg" alt="DemonSlayerAnime">
+          <p class="text-white text-center">
+           "Demon Slayer" (Demon Slayer: Kimetsu no Yaiba) es una popular franquicia de manga y anime japonesa que sigue a Tanjiro Kamado, un cazador de demonios que busca curar a su hermana Nezuko, convertida en un demonio, y vengar la muerte de su familia. Conocida por su impresionante animación y emocionantes escenas de acción, la historia se ha adaptado a múltiples temporadas de anime, películas y videojuegos La serie de anime, producida por Ufotable, es aclamada por su espectacular animación.Es una obra original de Koyoharu Gotouge </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+         <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">AttackOnTitan</h3>
+          <img class="w-100 img-fluid" src="../img/AttackOnTitan.jpg" alt="AttackOnTitan">
+          <p class="text-white text-center">
+        Attack On Titan (Shingeki no Kyojin), creado por Hajime Isayama, es una obra que revolucionó el manga y el anime desde su debut en 2009. Con un mundo distópico dominado por titanes aniquiladores de humanos y una humanidad reducida a vivir tras murallas colosales, la historia sigue a Eren Jaeger, un joven impulsado por la venganza tras ver a su madre ser eliminada por un titán. A lo largo de 34 volúmenes de manga y cuatro temporadas de anime, Attack On Titan se transformó de una historia de supervivencia a una compleja narrativa de guerra, política y destino.
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+         <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">Fullmetal Alchemist</h3>
+          <img class="w-100 img-fluid" src="../img/FullMetalAlchemist.jpg" alt="FullmetalAlchemist">
+          <p class="text-white text-center">
+          Fullmetal Alchemist: Brotherhood,es la segunda adaptación al anime del manga Fullmetal Alchemist, escrito originalmente por Hiromu Arakawa. Fue dirigido por Yasuhiro Irie y escrito por Hiroshi Onogi. La serie se estrenó el 5 de abril de 2009 en MBS-TBS y finalizó el 4 de julio de 2010 constando en total de 64 episodios.Aunque después de la trama principal del manga, Fullmetal Alchemist: Brotherhood tiene algunas diferencias claras de la obra original como la mayoría del contenido omitido en los primeros episodios
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+         <section class="bg-dark p-1 rounded card-main">
+          <h3 class="text-white text-center text-uppercase">DeathNote</h3>
+          <img class="w-100 img-fluid" src="../img/DeathNote.jpg" alt="DeathNote">
+          <p class="text-white text-center">
+          Death Note es una serie de manga escrita por Tsugumi Ōba e ilustrada por Takeshi Obata, y cuya adaptación al anime fue dirigida porTetsurō Araki. La historia se centra en Light Yagami, un estudiante de preparatoria que encuentra un cuaderno sobrenatural llamado «Death Note», con el cual es capaz de matar personas si se escriben los nombres de éstas en él mientras el portador visualiza mentalmente la cara de quien quiere asesinar.6 Light intenta eliminar a todos los criminales y crear un mundo donde no exista la maldad
+          </p>
+          <button class="w-100 py-2 rounded bg-white fw-semibold">
+            Comprar
+          </button>
+        </section>
+        </div>
+      
+   
+      <!-- Form Contacto-->
+<div class="container bg-dark mt-5  rounded text-center w-auto">
+    <h2 class="mb-3">Enviar Mensaje</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+    </main>
+<!--Contacto y Ubiacion-->
+    <footer class="mt-5 bg-dark justify-content-center justify-content-end d-flex text-white">
       <section >
         <p class="text-center">Cristian Nicolas Fischer</p>
   <a href="https://wa.me/+5492226444332" target="_blank"> <img src="../img/whatsapp.png" alt="Whatsapp" class="logowhatsapp"></a>
 <a href="https://www.instagram.com/ypf_elmolino/?hl=es-la" target="_blank"> <img src="../img/logoinsta.png" alt="logoinsta" class="logoinsta"></a>
 <a href="mailto:cristiannfischer@gmail.com" target="_blank"> <img src="../img/email.png" alt="email" class="logoemail"></a>
-<a href="https://www.google.com/maps/place/YPF+El+Molino/@-35.0310239,-58.7247648,17z/data=!3m1!4b1!4m6!3m5!1s0x95bd21f9243f8e73:0xb2d75938fdd0741e!8m2!3d-35.0310239!4d-58.7247648!16s%2Fg%2F11h585lkqs?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"> <img src="../img/mapa.png" alt="ubiacion" class="mapa"></a>
+<a href="https://www.google.com/maps/@-34.6054332,-58.4290315,3a,75y,96.74h,90t/data=!3m7!1e1!3m5!1stekcES6qjASPsCtlsm0hxQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DtekcES6qjASPsCtlsm0hxQ%26yaw%3D96.74!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" target="_blank"> <img src="../img/mapa.png" alt="ubiacion" class="mapa"></a>
       </section>
     </footer>
-      <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-</body>
-
+  </body>
 </html>
